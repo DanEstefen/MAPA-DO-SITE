@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin:0px;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("vslogo.jpg");
+background: black;
+}
+
+
+.flex{
+    display: flex; /* alinhas no canto direito os titulos links e não um embaixo do outro  */
+    align-items: center; /* centralizar os textos linkis */
+    justify-content: space-between; /* alinhar a esqueda ou direita o texto links */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* fonte */
+    
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: goldenrod ;
+    display: block;
+    padding: 0px 20px;
+}
+
+a:hover{
+background-color: rgba(255,255, 255,.3);
+}
+
+nav{
+    background-color:rgb(29, 23, 23);
+    height: 50px;
+    border:2px solid goldenrod;
+}
+
+ul#ul-principal{
+    background-color: blue;
+    width: 90%;
+    margin: auto;
+}
+
+.li-principal{
+    line-height: 50px;
+    float: left;
+
+}
+
+ul li ul li{
+    background-color:black;
+
+}
+
+
+.center-image {
+    text-align: center; /*  alinhar texto*/
+    /*position: relative; acompanhada do hight, left posso usa-lá para posicionar a imagem*/
+    background-image: url(../imagens/logo.png); /* carregar imagem no fundo */
+    background-size: contain; /* tamanho da imagem usando o contain, para preencher o tamanho do quadrado*/
+    width: 100%; /* ajustar tamanho da imagem */
+    background-position: center; /* centralizar imagem */
+    height: 500px; /* ajustar tamanho da imagem */
+    background-repeat: no-repeat; /* não duplicar a imagem em varias, só vai deixar uma de fundo */
+    background-color: black; /* cor de fundo */
+
+}
+
+.ul-Noticias, .ul-Ensino{
+    display: none;
+}
